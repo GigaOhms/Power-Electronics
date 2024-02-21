@@ -1,0 +1,69 @@
+Removed Pin From Net: NetName=5V Pin=0R-2
+Removed Pin From Net: NetName=5V Pin=0R-2
+Removed Pin From Net: NetName=5V Pin=0R-2
+Removed Pin From Net: NetName=GND_D Pin=1uF-1
+Removed Pin From Net: NetName=5V Pin=1uF-2
+Removed Pin From Net: NetName=GND_D Pin=10K-1
+Removed Pin From Net: NetName=Net12_1 Pin=10K-1
+Removed Pin From Net: NetName=5V Pin=10K-2
+Removed Pin From Net: NetName=Net18_10 Pin=10K-2
+Removed Pin From Net: NetName=GND_D Pin=100pF-1
+Removed Pin From Net: NetName=GND_D Pin=100pF-1
+Removed Pin From Net: NetName=Net12_1 Pin=100pF-2
+Removed Pin From Net: NetName=Net18_10 Pin=100pF-2
+Removed Pin From Net: NetName=HS_HV_VDC Pin=HS_GATE-1
+Removed Pin From Net: NetName=HS_GND Pin=HS_GATE-2
+Removed Pin From Net: NetName=HS_GND Pin=HS_GATE-3
+Removed Pin From Net: NetName=HS_GATE Pin=HS_GATE-4
+Removed Member From Class: ClassName=driver_V1.1 Member=0R
+Removed Member From Class: ClassName=driver_V1.1 Member=10K
+Removed Member From Class: ClassName=driver_V1.1 Member=HS_GATE
+Change Component Designator: OldDesignator= NewDesignator=34
+Change Component Designator: OldDesignator= NewDesignator=IN+1
+Change Component Designator: OldDesignator=0R NewDesignator=15
+Change Component Designator: OldDesignator=0R NewDesignator=16
+Change Component Designator: OldDesignator=0R NewDesignator=17
+Change Component Designator: OldDesignator=0R NewDesignator=20
+Change Component Designator: OldDesignator=0R NewDesignator=22
+Change Component Designator: OldDesignator=1ED020I12-F2 NewDesignator=18
+Change Component Designator: OldDesignator=1uF NewDesignator=7
+Change Component Designator: OldDesignator=4.7uF NewDesignator=9
+Change Component Designator: OldDesignator=4.7uF NewDesignator=32
+Change Component Designator: OldDesignator=4.7uF NewDesignator=33
+Change Component Designator: OldDesignator=10K NewDesignator=13
+Change Component Designator: OldDesignator=10K NewDesignator=30
+Change Component Designator: OldDesignator=33pF NewDesignator=25
+Change Component Designator: OldDesignator=100pF NewDesignator=26
+Change Component Designator: OldDesignator=100pF NewDesignator=29
+Change Component Designator: OldDesignator=B_165 NewDesignator=B1
+Change Component Designator: OldDesignator=GND_P NewDesignator=JP1
+Change Component Designator: OldDesignator=SMB NewDesignator=SMB1
+Added Component: Designator=JP?(JP 1x3 DT)
+Added Pin To Net: NetName=HS_HV_VDC Pin=JP?-1
+Added Pin To Net: NetName=HS_GND Pin=JP?-2
+Added Pin To Net: NetName=HS_GATE Pin=JP?-3
+Change Net Name : Old Net Name=Net12_1 New Net Name=Net13_1
+Added Pin To Net: NetName=Net15_1 Pin=15-1
+Added Pin To Net: NetName=Net15_1 Pin=18-14
+Added Net: Name=Net15_1
+Added Pin To Net: NetName=Net16_2 Pin=16-2
+Added Pin To Net: NetName=Net16_2 Pin=18-12
+Added Net: Name=Net16_2
+Added Pin To Net: NetName=Net17_1 Pin=17-1
+Added Pin To Net: NetName=Net17_1 Pin=18-13
+Added Net: Name=Net17_1
+Added Member To Class: ClassName=driver_V1.1 Member=Component 13 10K
+Added Member To Class: ClassName=driver_V1.1 Member=Component 15 0R
+Added Member To Class: ClassName=driver_V1.1 Member=Component 16 0R
+Added Member To Class: ClassName=driver_V1.1 Member=Component 17 0R
+Added Member To Class: ClassName=driver_V1.1 Member=Component 20 0R
+Added Member To Class: ClassName=driver_V1.1 Member=Component 22 0R
+Added Member To Class: ClassName=driver_V1.1 Member=Component 24 10R
+Added Member To Class: ClassName=driver_V1.1 Member=Component 29 100pF
+Added Member To Class: ClassName=driver_V1.1 Member=Component 30 10K
+Added Member To Class: ClassName=driver_V1.1 Member=Component 32 4.7uF
+Added Member To Class: ClassName=driver_V1.1 Member=Component 33 4.7uF
+Added Member To Class: ClassName=driver_V1.1 Member=Component B2 BAT165
+Added Member To Class: ClassName=driver_V1.1 Member=Component IN+1 JP 1x4 2.54
+Added Member To Class: ClassName=driver_V1.1 Member=Component JP? JP 1x3 2.54
+Added Room: Name=driver_V1.1

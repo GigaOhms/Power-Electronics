@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=15V Pin=D1-1
+Removed Pin From Net: NetName=15V Pin=D4-2
+Removed Pin From Net: NetName=15V Pin=J1-1
+Change Component Comment : Designator=C3 Old Comment=223 New Comment=0.1 uF
+Change Component Comment : Designator=C6 Old Comment=223 New Comment=0.1uF
+Change Component Comment : Designator=C1 Old Comment=capacitor_electric New Comment=1 uF
+Change Component Comment : Designator=C5 Old Comment=capacitor_electric New Comment=1uF
+Change Component Comment : Designator=C2 Old Comment=capacitor_electric New Comment=4700uF
+Change Component Comment : Designator=C4 Old Comment=capacitor_electric New Comment=4700uF
+Change Component Comment : Designator=U1 Old Comment=LM7812 New Comment=LM7815
+Change Component Designator: OldDesignator=J1 NewDesignator=Vin
+Change Component Designator: OldDesignator=J2 NewDesignator=Vo
+Change Component Description : Designator=C3 Old Description=C?m New Description=C?m
+Change Component Description : Designator=C6 Old Description=C?m New Description=C?m
+Change component parameters: Designator = "C3" ("C3"); Footprint = "tu gom"; UniqueID = "\KRNELPAG" ("\KRNELPAG")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH007018"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? g?m 223-22nF 50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C6" ("C6"); Footprint = "tu gom"; UniqueID = "\TQYKHUUH" ("\TQYKHUUH")
+Change component parameters (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ma_Hang"; Value = "MH007018"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? g?m 223-22nF 50V"; VariantName = "[No Variations]"
+Added Component: Designator=C1(capacitor_elec_t/h_5mm)
+Added Component: Designator=C2(capacitor_elec_t/h_5mm)
+Added Component: Designator=C3(tu gom)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH007018"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? g?m 223-22nF 50V"; VariantName = "[No Variations]"
+Added Component: Designator=C4(capacitor_elec_t/h_5mm)
+Added Component: Designator=C5(capacitor_elec_t/h_5mm)
+Added Component: Designator=C6(tu gom)
+Add component (AddParameter): Name = "Chung_Loai"; Value = "C?m"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Don_Vi"; Value = "Con"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Kieu_Chan"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ma_Hang"; Value = "MH007018"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "So_Chan"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Ten_Linh_Kien"; Value = "T? g?m 223-22nF 50V"; VariantName = "[No Variations]"
+Added Component: Designator=U2(LM7915)
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=VIN_U1 Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=VIN_U1 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=VIN_U2 Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=VIN_U2 Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=VIN_U1 Pin=D1-2
+Added Pin To Net: NetName=VIN_U1 Pin=D2-2
+Added Pin To Net: NetName=VIN_U2 Pin=D3-1
+Added Pin To Net: NetName=VIN_U2 Pin=D4-1
+Added Pin To Net: NetName=VIN_U1 Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=U2-1
+Added Pin To Net: NetName=VIN_U2 Pin=U2-2
+Change Net Name : Old Net Name=15V New Net Name=NetD2_1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=D4-2
+Added Net: Name=NetD1_1
+Added Class: Name=Sheet1 (1)
+Added Room: Name=Sheet1 (1)
+Added Room: Name=Sheet1
