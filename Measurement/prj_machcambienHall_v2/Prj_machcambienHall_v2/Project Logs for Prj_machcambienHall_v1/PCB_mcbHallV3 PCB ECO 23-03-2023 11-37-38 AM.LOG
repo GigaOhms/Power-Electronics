@@ -1,0 +1,97 @@
+Change Component Designator: OldDesignator=+15V_+5V NewDesignator=U4.4
+Change Component Designator: OldDesignator=ADC Ia NewDesignator=P5.3
+Change Component Designator: OldDesignator=ADC Ib NewDesignator=P6.3
+Change Component Designator: OldDesignator=ADC Ic NewDesignator=P7.3
+Change Component Designator: OldDesignator=ADC out NewDesignator=P2.3
+Change Component Designator: OldDesignator=ADC Va NewDesignator=P1.3
+Change Component Designator: OldDesignator=ADC Vb NewDesignator=P3.3
+Change Component Designator: OldDesignator=ADC Vc NewDesignator=P4.3
+Change Component Designator: OldDesignator=Amp Ia NewDesignator=P1.1
+Change Component Designator: OldDesignator=Amp Ib NewDesignator=P6.1
+Change Component Designator: OldDesignator=Amp Ic NewDesignator=P11.1
+Change Component Designator: OldDesignator=Amp Va NewDesignator=P2.2
+Change Component Designator: OldDesignator=Amp Vb NewDesignator=P6.2
+Change Component Designator: OldDesignator=Amp Vc NewDesignator=P10.2
+Change Component Designator: OldDesignator=GND NewDesignator=P3.4
+Change Component Designator: OldDesignator=In+ NewDesignator=P1.4
+Change Component Designator: OldDesignator=In- NewDesignator=P5.4
+Change Component Designator: OldDesignator=Iso 2.5V NewDesignator=P10.4
+Change Component Designator: OldDesignator=LED Power(5V) NewDesignator=LD1.4
+Change Component Designator: OldDesignator=LEM LA25_NP NewDesignator=U7.1
+Change Component Designator: OldDesignator=LEM LA25_NP NewDesignator=U8.1
+Change Component Designator: OldDesignator=LEM LA25_NP NewDesignator=U9.1
+Change Component Designator: OldDesignator=LEM LV25P NewDesignator=U1.2
+Change Component Designator: OldDesignator=LEM LV25P NewDesignator=U4.2
+Change Component Designator: OldDesignator=LEM LV25P NewDesignator=U7.2
+Change Component Designator: OldDesignator=Line A NewDesignator=P3.1
+Change Component Designator: OldDesignator=Line A NewDesignator=P4.1
+Change Component Designator: OldDesignator=Line B NewDesignator=P8.1
+Change Component Designator: OldDesignator=Line B NewDesignator=P15.1
+Change Component Designator: OldDesignator=Line C NewDesignator=P9.1
+Change Component Designator: OldDesignator=Line C NewDesignator=P13.1
+Change Component Designator: OldDesignator=Lm7815(+15V) NewDesignator=U1.4
+Change Component Designator: OldDesignator=Lm7815(-15V) NewDesignator=U3.4
+Change Component Designator: OldDesignator=MBA 20Va NewDesignator=U2.4
+Change Component Designator: OldDesignator=N NewDesignator=P13.2
+Change Component Designator: OldDesignator=OL_Ia NewDesignator=P5.1
+Change Component Designator: OldDesignator=OL_Ib NewDesignator=P10.1
+Change Component Designator: OldDesignator=OL_Ic NewDesignator=P14.1
+Change Component Designator: OldDesignator=OL_Va NewDesignator=P1.2
+Change Component Designator: OldDesignator=OL_Vb NewDesignator=P5.2
+Change Component Designator: OldDesignator=OL_Vc NewDesignator=P9.2
+Change Component Designator: OldDesignator=Op iso NewDesignator=U5.4
+Change Component Designator: OldDesignator=Os Ia NewDesignator=P2.1
+Change Component Designator: OldDesignator=Os Ib NewDesignator=P7.1
+Change Component Designator: OldDesignator=Os Ic NewDesignator=P12.1
+Change Component Designator: OldDesignator=Os Va NewDesignator=P3.2
+Change Component Designator: OldDesignator=Os Vb NewDesignator=P7.2
+Change Component Designator: OldDesignator=Os Vc NewDesignator=P11.2
+Change Component Designator: OldDesignator=Phase A NewDesignator=P4.2
+Change Component Designator: OldDesignator=Phase B NewDesignator=P8.2
+Change Component Designator: OldDesignator=Phase C NewDesignator=P12.2
+Change Component Designator: OldDesignator=Ref +2.5V NewDesignator=P6.4
+Change Component Designator: OldDesignator=T_2.5V NewDesignator=P9.4
+Change Component Designator: OldDesignator=T_5V NewDesignator=P8.4
+Change Component Designator: OldDesignator=T_+15V NewDesignator=P2.4
+Change Component Designator: OldDesignator=T_-15V NewDesignator=P7.4
+Change Component Designator: OldDesignator=VAC 220V  NewDesignator=P4.4
+Change Component Designator: OldDesignator=Vos NewDesignator=P8.3
+Added Component: Designator=LD2.4(SMD 1206 RED)
+Added Component: Designator=LD3.4(SMD 1206 RED)
+Added Component: Designator=R1.4(RESC0805)
+Added Component: Designator=R2.4(RESC0805)
+Added Pin To Net: NetName=-15V Pin=LD2.4-2
+Added Pin To Net: NetName=GND Pin=LD3.4-2
+Added Pin To Net: NetName=+15V Pin=R1.4-2
+Added Pin To Net: NetName=GND Pin=R2.4-1
+Added Pin To Net: NetName=NetLD2.4_1 Pin=LD2.4-1
+Added Pin To Net: NetName=NetLD2.4_1 Pin=R2.4-2
+Added Net: Name=NetLD2.4_1
+Added Pin To Net: NetName=NetLD3.4_1 Pin=LD3.4-1
+Added Pin To Net: NetName=NetLD3.4_1 Pin=R1.4-1
+Added Net: Name=NetLD3.4_1
+Added Member To Class: ClassName=SCH_power Member=Component LD2.4 LED-RED
+Added Member To Class: ClassName=SCH_power Member=Component LD3.4 LED-RED
+Added Member To Class: ClassName=SCH_Output Member=Component P1.3 SMA
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P2.1 testpin
+Added Member To Class: ClassName=SCH_Output Member=Component P2.3 header_2x7
+Added Member To Class: ClassName=SCH_Output Member=Component P3.3 SMA
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P4.1 Terminal on PCB
+Added Member To Class: ClassName=SCH_Output Member=Component P4.3 SMA
+Added Member To Class: ClassName=SCH_power Member=Component P4.4 JACL AC
+Added Member To Class: ClassName=SCH_Output Member=Component P5.3 SMA
+Added Member To Class: ClassName=SCH_Output Member=Component P7.3 SMA
+Added Member To Class: ClassName=SCH_Output Member=Component P8.3 SMA
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P13.1 Terminal on PCB
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P15.1 Terminal on PCB
+Added Member To Class: ClassName=SCH_power Member=Component R1.4 Resistor
+Added Member To Class: ClassName=SCH_power Member=Component R2.4 Resistor
+Added Member To Class: ClassName=SCH_power Member=Component R3.4 Resistor
+Added Member To Class: ClassName=SCH_HallVoltageLV25np Member=Component U4.2 LEM Lv25_P
+Added Member To Class: ClassName=SCH_HallVoltageLV25np Member=Component U7.2 LEM Lv25_P
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component U8.1 LEM LA25_P
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component U9.1 LEM LA25_P
+Added Room: Name=SCH_HallcurrentLA25p
+Added Room: Name=SCH_HallVoltageLV25np
+Added Room: Name=SCH_Output
+Added Room: Name=SCH_power

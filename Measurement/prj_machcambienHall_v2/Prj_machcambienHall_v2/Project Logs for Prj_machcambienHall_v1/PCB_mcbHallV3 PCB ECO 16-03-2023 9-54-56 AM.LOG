@@ -1,0 +1,30 @@
+Removed Member From Class: ClassName=SCH_power Member=LO2.4
+Change Component Designator: OldDesignator=ADC Ia NewDesignator=P5.3
+Change Component Designator: OldDesignator=ADC Ib NewDesignator=P6.3
+Change Component Designator: OldDesignator=ADC Ic NewDesignator=P7.3
+Change Component Designator: OldDesignator=ADC Va NewDesignator=P1.3
+Change Component Designator: OldDesignator=ADC Vb NewDesignator=P3.3
+Change Component Designator: OldDesignator=ADC Vc NewDesignator=P4.3
+Change Component Designator: OldDesignator=LEM LA25_NP NewDesignator=U7.1
+Change Component Designator: OldDesignator=LEM LA25_NP NewDesignator=U8.1
+Change Component Designator: OldDesignator=LEM LA25_NP NewDesignator=U9.1
+Change Component Designator: OldDesignator=LEM LV25P NewDesignator=U1.2
+Change Component Designator: OldDesignator=LEM LV25P NewDesignator=U4.2
+Change Component Designator: OldDesignator=LEM LV25P NewDesignator=U7.2
+Change Component Designator: OldDesignator=Line A NewDesignator=P3.1
+Change Component Designator: OldDesignator=Line B NewDesignator=P8.1
+Change Component Designator: OldDesignator=Line C NewDesignator=P13.1
+Change Component Designator: OldDesignator=N NewDesignator=P13.2
+Change Component Designator: OldDesignator=Out ADC NewDesignator=P2.3
+Change Component Designator: OldDesignator=Phase A NewDesignator=P4.2
+Change Component Designator: OldDesignator=Phase B NewDesignator=P8.2
+Change Component Designator: OldDesignator=Phase C NewDesignator=P12.2
+Change Component Designator: OldDesignator=Vos NewDesignator=P8.3
+Added Member To Class: ClassName=SCH_HallVoltageLV25np Member=Component U1.2 LEM Lv25_P
+Added Member To Class: ClassName=SCH_HallVoltageLV25np Member=Component U4.2 LEM Lv25_P
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component U7.1 LEM LA25_P
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component U8.1 LEM LA25_P
+Added Room: Name=SCH_HallcurrentLA25p
+Added Room: Name=SCH_HallVoltageLV25np
+Added Room: Name=SCH_Output
+Added Room: Name=SCH_power

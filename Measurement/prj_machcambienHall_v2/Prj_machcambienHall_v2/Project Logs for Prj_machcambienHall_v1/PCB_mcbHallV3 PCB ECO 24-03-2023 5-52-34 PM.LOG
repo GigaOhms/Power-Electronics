@@ -1,0 +1,76 @@
+Removed Pin From Net: NetName=GND Pin=power In-1
+Removed Pin From Net: NetName=NetL1.4_1 Pin=power In-2
+Removed Pin From Net: NetName=NetL2.4_1 Pin=power In-3
+Removed Member From Class: ClassName=SCH_HallcurrentLA25p Member=Phase A
+Removed Member From Class: ClassName=SCH_HallcurrentLA25p Member=Phase B
+Removed Member From Class: ClassName=SCH_HallVoltageLV25np Member=Phase C
+Removed Member From Class: ClassName=SCH_power Member=power In
+Change Component Designator: OldDesignator=+2.5V NewDesignator=P6.4
+Change Component Designator: OldDesignator=+15V_+5V NewDesignator=U4.4
+Change Component Designator: OldDesignator=ADC Ia NewDesignator=P5.3
+Change Component Designator: OldDesignator=ADC Ib NewDesignator=P6.3
+Change Component Designator: OldDesignator=ADC out NewDesignator=P2.3
+Change Component Designator: OldDesignator=ADC Va NewDesignator=P1.3
+Change Component Designator: OldDesignator=ADC Vb NewDesignator=P3.3
+Change Component Designator: OldDesignator=ADC Vc NewDesignator=P4.3
+Change Component Designator: OldDesignator=Amp Ia NewDesignator=P1.1
+Change Component Designator: OldDesignator=Amp Ib NewDesignator=P6.1
+Change Component Designator: OldDesignator=Amp Ic NewDesignator=P11.1
+Change Component Designator: OldDesignator=Amp Va NewDesignator=P2.2
+Change Component Designator: OldDesignator=Amp Vb NewDesignator=P6.2
+Change Component Designator: OldDesignator=Amp Vc NewDesignator=P10.2
+Change Component Designator: OldDesignator=GND NewDesignator=P3.4
+Change Component Designator: OldDesignator=In+ NewDesignator=P1.4
+Change Component Designator: OldDesignator=In- NewDesignator=P5.4
+Change Component Designator: OldDesignator=Iso +2.5V NewDesignator=P10.4
+Change Component Designator: OldDesignator=LD_+15V NewDesignator=LD2.4
+Change Component Designator: OldDesignator=LD_-15V NewDesignator=LD3.4
+Change Component Designator: OldDesignator=LED +5V NewDesignator=LD1.4
+Change Component Designator: OldDesignator=LEM LA25_NP Ia NewDesignator=U7.1
+Change Component Designator: OldDesignator=LEM LA25_NP Ib NewDesignator=U8.1
+Change Component Designator: OldDesignator=LEM LA25_NP Ic NewDesignator=U9.1
+Change Component Designator: OldDesignator=LEM LV25P Va NewDesignator=U1.2
+Change Component Designator: OldDesignator=LEM LV25P Vb NewDesignator=U4.2
+Change Component Designator: OldDesignator=LEM LV25P Vc NewDesignator=U7.2
+Change Component Designator: OldDesignator=Line A NewDesignator=P4.1
+Change Component Designator: OldDesignator=Line B NewDesignator=P15.1
+Change Component Designator: OldDesignator=Line C NewDesignator=P9.1
+Change Component Designator: OldDesignator=Lm7815(+15V) NewDesignator=U1.4
+Change Component Designator: OldDesignator=Lm7815(-15V) NewDesignator=U3.4
+Change Component Designator: OldDesignator=N NewDesignator=P13.2
+Change Component Designator: OldDesignator=OL_Ia NewDesignator=P5.1
+Change Component Designator: OldDesignator=OL_Ib NewDesignator=P10.1
+Change Component Designator: OldDesignator=OL_Ic NewDesignator=P14.1
+Change Component Designator: OldDesignator=OL_Va NewDesignator=P1.2
+Change Component Designator: OldDesignator=OL_Vb NewDesignator=P5.2
+Change Component Designator: OldDesignator=OL_Vc NewDesignator=P9.2
+Change Component Designator: OldDesignator=Op iso NewDesignator=U5.4
+Change Component Designator: OldDesignator=Os Ia NewDesignator=P2.1
+Change Component Designator: OldDesignator=Os Ib NewDesignator=P7.1
+Change Component Designator: OldDesignator=Os Ic NewDesignator=P12.1
+Change Component Designator: OldDesignator=Os Va NewDesignator=P3.2
+Change Component Designator: OldDesignator=Os Vb NewDesignator=P7.2
+Change Component Designator: OldDesignator=Os Vc NewDesignator=P11.2
+Change Component Designator: OldDesignator=Phase A NewDesignator=P3.1
+Change Component Designator: OldDesignator=Phase A NewDesignator=P4.2
+Change Component Designator: OldDesignator=Phase B NewDesignator=P8.1
+Change Component Designator: OldDesignator=Phase B NewDesignator=P8.2
+Change Component Designator: OldDesignator=Phase C NewDesignator=P12.2
+Change Component Designator: OldDesignator=Phase C NewDesignator=P13.1
+Change Component Designator: OldDesignator=T_5V NewDesignator=P8.4
+Change Component Designator: OldDesignator=T_+2.5V NewDesignator=P9.4
+Change Component Designator: OldDesignator=T_+15V NewDesignator=P2.4
+Change Component Designator: OldDesignator=T_-15V NewDesignator=P7.4
+Change Component Designator: OldDesignator=Vos NewDesignator=P8.3
+Added Component: Designator=P4.4(domino_3p)
+Added Pin To Net: NetName=GND Pin=P4.4-1
+Added Pin To Net: NetName=NetL2.4_1 Pin=P4.4-2
+Added Pin To Net: NetName=NetL1.4_1 Pin=P4.4-3
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P3.1 Terminal on PCB
+Added Member To Class: ClassName=SCH_power Member=Component P4.4 domino_3p
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P8.1 Terminal on PCB
+Added Member To Class: ClassName=SCH_HallVoltageLV25np Member=Component P12.2 Terminal on PCB
+Added Room: Name=SCH_HallcurrentLA25p
+Added Room: Name=SCH_HallVoltageLV25np
+Added Room: Name=SCH_Output
+Added Room: Name=SCH_power

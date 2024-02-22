@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=LEM LA25-NP (phase A) NewDesignator=U7.1
+Change Component Designator: OldDesignator=LEM LA25-NP (phase C) NewDesignator=U9.1
+Change Component Designator: OldDesignator=LEM LA25_NP (phaseB) NewDesignator=U8.1
+Change Component Designator: OldDesignator=LEM LV25P (phase A) NewDesignator=U1.2
+Change Component Designator: OldDesignator=LEM LV25P (phase B) NewDesignator=U4.2
+Change Component Designator: OldDesignator=LEM LV25P (phase C) NewDesignator=U7.2
+Added Component: Designator=R83.2(RESC0805)
+Added Pin To Net: NetName=GND Pin=R83.2-1
+Added Pin To Net: NetName=NetR83.2_2 Pin=R83.2-2
+Added Member To Class: ClassName=SCH_HallVoltageLV25np Member=Component R83.2 Resistor
+Added Member To Class: ClassName=SCH_HallVoltageLV25np Member=Component U1.2 LEM Lv25_P
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component U7.1 LEM LA25_P
+Added Room: Name=SCH_HallcurrentLA25p
+Added Room: Name=SCH_HallVoltageLV25np
+Added Room: Name=SCH_Output
+Added Room: Name=SCH_power

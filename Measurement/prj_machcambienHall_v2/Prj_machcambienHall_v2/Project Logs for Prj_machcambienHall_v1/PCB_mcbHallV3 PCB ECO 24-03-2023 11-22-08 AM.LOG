@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=GND Pin=U2.4-7
+Removed Member From Class: ClassName=SCH_power Member=D1.4
+Removed Member From Class: ClassName=SCH_power Member=D2.4
+Removed Member From Class: ClassName=SCH_power Member=D3.4
+Removed Member From Class: ClassName=SCH_power Member=D4.4
+Removed Member From Class: ClassName=SCH_power Member=U2.4
+Change Component DesignItemId : Designator=P4.4 Old DesignItemId=JACL AC New DesignItemId=domino_3p
+Change Component Footprint: Designator=P4.4 Old Footprint=IEC C8 New Footprint=domino_3p
+Change Component Comment : Designator=P4.4 Old Comment=JACL AC New Comment=domino_3p
+Added Pin To Net: NetName=GND Pin=P4.4-2
+Added Pin To Net: NetName=NetL1.4_1 Pin=L1.4-1
+Added Pin To Net: NetName=NetL1.4_1 Pin=P4.4-3
+Added Net: Name=NetL1.4_1
+Added Pin To Net: NetName=NetL2.4_1 Pin=L2.4-1
+Added Pin To Net: NetName=NetL2.4_1 Pin=P4.4-1
+Added Net: Name=NetL2.4_1
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P1.1 testpin
+Added Member To Class: ClassName=SCH_HallVoltageLV25np Member=Component P3.2 testpin
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P6.1 testpin
+Added Member To Class: ClassName=SCH_Output Member=Component P6.3 SMA
+Added Room: Name=SCH_HallcurrentLA25p
+Added Room: Name=SCH_HallVoltageLV25np
+Added Room: Name=SCH_Output
+Added Room: Name=SCH_power

@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=[4]_SCH_input.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=[4]_SCH_input.SchDoc|FileName=SCH_HallcurrentLA25p.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=[4]_SCH_input.SchDoc|FileName=SCH_HallVoltageLV25np.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=[4]_SCH_input.SchDoc|FileName=SCH_Output.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=[4]_SCH_input.SchDoc|FileName=SCH_power.SchDoc|SheetNumber=1

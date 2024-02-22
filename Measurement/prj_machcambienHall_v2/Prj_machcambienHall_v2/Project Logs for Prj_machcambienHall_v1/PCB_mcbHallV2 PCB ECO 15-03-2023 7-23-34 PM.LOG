@@ -1,0 +1,86 @@
+Removed Pin From Net: NetName=-15V Pin=LD1.4-2
+Removed Pin From Net: NetName=GND Pin=LD2.4-2
+Removed Pin From Net: NetName=+15V Pin=R3.4-2
+Removed Pin From Net: NetName=GND Pin=R4.4-1
+Removed Pin From Net: NetName=NetLD1.4_1 Pin=R4.4-2
+Removed Member From Class: ClassName=SCH_power Member=LD2.4
+Removed Member From Class: ClassName=SCH_power Member=R4.4
+Change Component DesignItemId : Designator=LD1.4 Old DesignItemId=LED_LTST-C191KGKT New DesignItemId=LED_LTST-C191KRKT
+Change Component Footprint: Designator=LD1.4 Old Footprint=LED 0805 Blue New Footprint=SMD 1206 RED
+Change Component Comment : Designator=LD1.4 Old Comment=LED-Blue New Comment=LED-RED
+Change Component Designator: OldDesignator=+15V->5V DC NewDesignator=U4.4
+Change Component Designator: OldDesignator=100uH 3A NewDesignator=L1.4
+Change Component Designator: OldDesignator=100uH 3A NewDesignator=L2.4
+Change Component Designator: OldDesignator=220V AC NewDesignator=P4.4
+Change Component Designator: OldDesignator=ADC Ia NewDesignator=P5.3
+Change Component Designator: OldDesignator=ADC Ib NewDesignator=P6.3
+Change Component Designator: OldDesignator=ADC Ic NewDesignator=P7.3
+Change Component Designator: OldDesignator=ADC Va NewDesignator=P1.3
+Change Component Designator: OldDesignator=ADC Vb NewDesignator=P3.3
+Change Component Designator: OldDesignator=ADC Vc NewDesignator=P4.3
+Change Component Designator: OldDesignator=GND NewDesignator=P3.4
+Change Component Designator: OldDesignator=Ia NewDesignator=P3.1
+Change Component Designator: OldDesignator=Ia NewDesignator=P4.1
+Change Component Designator: OldDesignator=Ib NewDesignator=P8.1
+Change Component Designator: OldDesignator=Ib NewDesignator=P15.1
+Change Component Designator: OldDesignator=Ic NewDesignator=P9.1
+Change Component Designator: OldDesignator=Ic NewDesignator=P13.1
+Change Component Designator: OldDesignator=LEM LA25-NP (phase A) NewDesignator=U7.1
+Change Component Designator: OldDesignator=LEM LA25-NP (phase B) NewDesignator=U8.1
+Change Component Designator: OldDesignator=LEM LA25-NP (phase C) NewDesignator=U9.1
+Change Component Designator: OldDesignator=LEM LV25-P (phase A) NewDesignator=U1.2
+Change Component Designator: OldDesignator=LEM LV25-P (phase B) NewDesignator=U4.2
+Change Component Designator: OldDesignator=LEM LV25-P (phase C) NewDesignator=U7.2
+Change Component Designator: OldDesignator=LM7815_+15V NewDesignator=U1.4
+Change Component Designator: OldDesignator=LM7915_-15V NewDesignator=U3.4
+Change Component Designator: OldDesignator=N NewDesignator=P13.2
+Change Component Designator: OldDesignator=O_L Ia NewDesignator=P5.1
+Change Component Designator: OldDesignator=O_L Ib NewDesignator=P10.1
+Change Component Designator: OldDesignator=O_L Ic NewDesignator=P14.1
+Change Component Designator: OldDesignator=O_L Va NewDesignator=P1.2
+Change Component Designator: OldDesignator=O_L Vb NewDesignator=P5.2
+Change Component Designator: OldDesignator=O_L Vc NewDesignator=P9.2
+Change Component Designator: OldDesignator=OP CL NewDesignator=U5.4
+Change Component Designator: OldDesignator=Phase A NewDesignator=P4.2
+Change Component Designator: OldDesignator=Phase B NewDesignator=P8.2
+Change Component Designator: OldDesignator=Phase C NewDesignator=P12.2
+Change Component Designator: OldDesignator=REF 2.5V NewDesignator=P6.4
+Change Component Designator: OldDesignator=T+2.5V NewDesignator=P9.4
+Change Component Designator: OldDesignator=T+5V NewDesignator=P8.4
+Change Component Designator: OldDesignator=T_af kd NewDesignator=P6.2
+Change Component Designator: OldDesignator=T_af Offset NewDesignator=P7.2
+Change Component Designator: OldDesignator=T_i+15V NewDesignator=P1.4
+Change Component Designator: OldDesignator=T_i-15V NewDesignator=P5.4
+Change Component Designator: OldDesignator=T_o+15V NewDesignator=P2.4
+Change Component Designator: OldDesignator=T_o-15V NewDesignator=P7.4
+Change Component Designator: OldDesignator=Voffset NewDesignator=P8.3
+Change Component Designator: OldDesignator=Vos NewDesignator=P10.4
+Added Component: Designator=U1.2(SOIC-8_dan)
+Added Pin To Net: NetName=GND Pin=LD1.4-2
+Added Pin To Net: NetName=NetLD1.4_1 Pin=R3.4-1
+Added Pin To Net: NetName=NetC9.4_1 Pin=R3.4-2
+Added Pin To Net: NetName=NetC1.1_1 Pin=U1.2-2
+Added Pin To Net: NetName=NetR7.1_2 Pin=U1.2-3
+Added Pin To Net: NetName=-15V Pin=U1.2-4
+Added Pin To Net: NetName=NetC1.1_2 Pin=U1.2-6
+Added Pin To Net: NetName=+15V Pin=U1.2-7
+Change Net Name : Old Net Name=NetC9.4_1 New Net Name=+5V
+Added Pin To Net: NetName=NetU1.1_1 Pin=U1.1-1
+Added Pin To Net: NetName=NetU1.1_1 Pin=U1.2-1
+Added Net: Name=NetU1.1_1
+Added Pin To Net: NetName=NetU1.1_5 Pin=U1.1-5
+Added Pin To Net: NetName=NetU1.1_5 Pin=U1.2-5
+Added Net: Name=NetU1.1_5
+Added Pin To Net: NetName=NetU1.1_8 Pin=U1.1-8
+Added Pin To Net: NetName=NetU1.1_8 Pin=U1.2-8
+Added Net: Name=NetU1.1_8
+Added Member To Class: ClassName=SCH_power Member=Component L1.4 Inductor
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P3.1 Terminal on PCB
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P8.1 Terminal on PCB
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component P9.1 Terminal on PCB
+Added Member To Class: ClassName=SCH_HallcurrentLA25p Member=Component U1.2 opamp_741
+Added Member To Class: ClassName=SCH_power Member=Component U3.4 79LXX
+Added Room: Name=SCH_HallcurrentLA25p
+Added Room: Name=SCH_HallVoltageLV25np
+Added Room: Name=SCH_Output
+Added Room: Name=SCH_power
